@@ -3,7 +3,7 @@
 	url = https://github.com/WOLFIE-OG/born2beroot
 [submodule "libft"]
 	path = libft
-	url = https://github.com/WOLFIE-OG/Libft
+	url = https://github.com/WOLFIE-OG/libft
 	branch = dev
 [submodule "ft_printf"]
 	path = ft_printf
