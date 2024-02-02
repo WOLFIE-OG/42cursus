@@ -13,3 +13,9 @@
 	path = get_next_line
 	url = https://github.com/WOLFIE-OG/get_next_line
 	branch = dev
+[submodule "minitalk"]
+	path = minitalk
+	url = https://github.com/WOLFIE-OG/minitalk
+[submodule "push_swap"]
+	path = push_swap
+	url = https://github.com/WOLFIE-OG/push_swap
