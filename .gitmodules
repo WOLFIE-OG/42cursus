@@ -1,3 +1,12 @@
 [submodule "born2beroot"]
 	path = born2beroot
 	url = https://github.com/WOLFIE-OG/born2beroot
+[submodule "libft"]
+	path = libft
+	url = https://github.com/WOLFIE-OG/Libft
+[submodule "ft_printf"]
+	path = ft_printf
+	url = https://github.com/WOLFIE-OG/ft_printf
+[submodule "get_next_line"]
+	path = get_next_line
+	url = https://github.com/WOLFIE-OG/get_next_line
