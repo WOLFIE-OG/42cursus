@@ -1,0 +1,9 @@
+{
+	"files.associations": {
+		"*.c": "c",
+		"libft.h": "c",
+		"stdint.h": "c",
+		"limits.h": "c",
+		"colour_codes.h": "c"
+	}
+}
