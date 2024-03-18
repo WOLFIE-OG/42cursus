@@ -4,51 +4,59 @@ Welcome to my collection of projects!
 
 ## Projects
 
-### So_long
+### Philosophers
 
-[![So_long Build](https://github.com/WOLFIE-OG/so_long/actions/workflows/workflow.yml/badge.svg)](https://github.com/WOLFIE-OG/so_long/actions/workflows/workflow.yml)
+[![Philosophers Build](https://github.com/WOLFIE-OG/Philosophers/actions/workflows/workflow.yml/badge.svg)](https://github.com/WOLFIE-OG/Philosophers/actions/workflows/makefile.yml)
 
-[![So_long Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=so_long&theme=dark)](https://github.com/WOLFIE-OG/so_long)
+[![Philosophers Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=Philosophers&theme=dark)](https://github.com/WOLFIE-OG/Philosophers)
 
-Description: So_long is a project that involves creating a simple 2D game using the MinilibX graphics library. The game involves navigating a character through a maze while collecting collectibles and avoiding obstacles. It's a fun project to learn about game development and graphics programming in C.
+Description: Eat, Sleep, Spaghetti, repeat. This project is about learning how threads work by precisely timing a group of philosophers on when to pick up forks and eat spaghetti without dying from hunger. 
 
-### Push Swap
+### so_long
 
-[![Push Swap Build](https://github.com/WOLFIE-OG/push_swap/actions/workflows/workflow.yml/badge.svg)](https://github.com/WOLFIE-OG/push_swap/actions/workflows/workflow.yml)
+[![so_long Build](https://github.com/WOLFIE-OG/so_long/actions/workflows/workflow.yml/badge.svg)](https://github.com/WOLFIE-OG/so_long/actions/workflows/makefile.yml)
 
-[![Push Swap Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=push_swap&theme=dark)](https://github.com/WOLFIE-OG/push_swap)
+[![so_long Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=so_long&theme=dark)](https://github.com/WOLFIE-OG/so_long)
 
-Description: Push Swap is a project that involves sorting a stack of numbers using a limited set of operations. The goal is to implement an efficient algorithm to sort the numbers with the least number of operations possible.
+Description: This project is a small 2D game with minilibx. You'll learn about textures, sprites and tiles. 
 
-### Minitalk
+### push_swap
+
+[![push_swap Build](https://github.com/WOLFIE-OG/push_swap/actions/workflows/workflow.yml/badge.svg)](https://github.com/WOLFIE-OG/push_swap/actions/workflows/makefile.yml)
+
+[![push_swap Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=push_swap&theme=dark)](https://github.com/WOLFIE-OG/push_swap)
+
+Description: This project involves sorting data on a stack, with a limited set of instructions, and the smallest number of moves. To make this happen, you will have to manipulate various sorting algorithms and choose the most appropriate solution(s) for optimized data sorting.
+
+### minitalk
 
 [![Minitalk Build](https://github.com/WOLFIE-OG/minitalk/actions/workflows/makefile.yml/badge.svg)](https://github.com/WOLFIE-OG/minitalk/actions/workflows/makefile.yml)
 
 [![Minitalk Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=minitalk&theme=dark)](https://github.com/WOLFIE-OG/minitalk)
 
-Description: Minitalk is a project that involves implementing a small client-server program for inter-process communication using signals. It allows two processes to communicate with each other by sending and receiving messages.
+Description: The purpose of this project is to code a small data exchange program using UNIX signals. It is an introductory project for the bigger UNIX projects that will appear later on in the cursus.
 
 ### Born2beroot
 
 [![Born2beroot Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=born2beroot&theme=dark)](https://github.com/WOLFIE-OG/born2beroot)
 
-Description: Born2beroot is a project that involves setting up a virtual machine running Debian Linux and configuring various services and security measures. The project covers topics such as system administration, networking, and security, providing hands-on experience with managing Linux servers.
+Description: This project aims to introduce you to the wonderful world of virtualization.
 
-### Ft_printf
+### ft_printf
 
-[![Ft_printf Build](https://github.com/WOLFIE-OG/ft_printf/actions/workflows/makefile.yml/badge.svg)](https://github.com/WOLFIE-OG/ft_printf/actions/workflows/makefile.yml)
+[![ft_printf Build](https://github.com/WOLFIE-OG/ft_printf/actions/workflows/makefile.yml/badge.svg)](https://github.com/WOLFIE-OG/ft_printf/actions/workflows/makefile.yml)
 
-[![Ft_printf Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=ft_printf&theme=dark)](https://github.com/WOLFIE-OG/ft_printf)
+[![ft_printf Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=ft_printf&theme=dark)](https://github.com/WOLFIE-OG/ft_printf)
 
-Description: Ft_printf is a project that involves re-implementing the printf function in C. The goal is to replicate the functionality of printf, allowing formatted output to be printed to the console or other output streams.
+Description: This project is pretty straightforward, you have to recode printf. You will learn what is and how to implement variadic functions. Once you validate it, you will reuse this function in your future projects. 
 
-### Get_next_line
+### get_next_line
 
-[![Get_next_line Build](https://github.com/WOLFIE-OG/get_next_line/actions/workflows/makefile.yml/badge.svg)](https://github.com/WOLFIE-OG/get_next_line/actions/workflows/makefile.yml)
+[![get_next_line Build](https://github.com/WOLFIE-OG/get_next_line/actions/workflows/makefile.yml/badge.svg)](https://github.com/WOLFIE-OG/get_next_line/actions/workflows/makefile.yml)
 
-[![Get_next_line Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=get_next_line&theme=dark)](https://github.com/WOLFIE-OG/get_next_line)
+[![get_next_line Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=get_next_line&theme=dark)](https://github.com/WOLFIE-OG/get_next_line)
 
-Description: Get_next_line is a project that involves implementing a function to read lines from a file descriptor. The function reads from the file descriptor until a newline character is encountered, allowing lines to be read sequentially from files or other input sources.
+Description: May it be a file, stdin, or even later a network connection, you will always need a way to read content line by line. It is time to start working on this function, which will be essential for your future projects. 
 
 ### Libft
 
@@ -56,4 +64,4 @@ Description: Get_next_line is a project that involves implementing a function to
 
 [![Libft Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=libft&theme=dark)](https://github.com/WOLFIE-OG/libft)
 
-Description: Libft is a project that involves creating a library of useful functions in C. These functions cover a wide range of functionalities, from string manipulation to memory allocation, and can be reused in various C projects.
+Description: This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. 
