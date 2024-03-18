@@ -6,7 +6,7 @@ Welcome to my collection of projects!
 
 ### Philosophers
 
-[![Philosophers Build](https://github.com/WOLFIE-OG/Philosophers/actions/workflows/workflow.yml/badge.svg)](https://github.com/WOLFIE-OG/Philosophers/actions/workflows/makefile.yml)
+[![Philosophers Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/Philosophers/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/Philosophers/actions/workflows/makefile.yml) ![Philosophers Score](https://img.shields.io/badge/Score-Na-grey?style=for-the-badge)
 
 [![Philosophers Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=Philosophers&theme=dark)](https://github.com/WOLFIE-OG/Philosophers)
 
@@ -14,7 +14,7 @@ Description: Eat, Sleep, Spaghetti, repeat. This project is about learning how t
 
 ### so_long
 
-[![so_long Build](https://github.com/WOLFIE-OG/so_long/actions/workflows/workflow.yml/badge.svg)](https://github.com/WOLFIE-OG/so_long/actions/workflows/makefile.yml)
+[![so_long Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/so_long/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/so_long/actions/workflows/makefile.yml) ![so_long Score](https://img.shields.io/badge/Score-125%2F125-brightgreen?style=for-the-badge)
 
 [![so_long Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=so_long&theme=dark)](https://github.com/WOLFIE-OG/so_long)
 
@@ -22,7 +22,7 @@ Description: This project is a small 2D game with minilibx. You'll learn about t
 
 ### push_swap
 
-[![push_swap Build](https://github.com/WOLFIE-OG/push_swap/actions/workflows/workflow.yml/badge.svg)](https://github.com/WOLFIE-OG/push_swap/actions/workflows/makefile.yml)
+[![push_swap Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/push_swap/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/push_swap/actions/workflows/makefile.yml) ![push_swap Score](https://img.shields.io/badge/Score-100%2F125-brightgreen?style=for-the-badge)
 
 [![push_swap Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=push_swap&theme=dark)](https://github.com/WOLFIE-OG/push_swap)
 
@@ -30,21 +30,21 @@ Description: This project involves sorting data on a stack, with a limited set o
 
 ### minitalk
 
-[![Minitalk Build](https://github.com/WOLFIE-OG/minitalk/actions/workflows/makefile.yml/badge.svg)](https://github.com/WOLFIE-OG/minitalk/actions/workflows/makefile.yml)
+[![minitalk Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/minitalk/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/minitalk/actions/workflows/makefile.yml) ![minitalk Score](https://img.shields.io/badge/Score-125%2F125-brightgreen?style=for-the-badge)
 
-[![Minitalk Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=minitalk&theme=dark)](https://github.com/WOLFIE-OG/minitalk)
+[![minitalk Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=minitalk&theme=dark)](https://github.com/WOLFIE-OG/minitalk)
 
 Description: The purpose of this project is to code a small data exchange program using UNIX signals. It is an introductory project for the bigger UNIX projects that will appear later on in the cursus.
 
 ### Born2beroot
 
-[![Born2beroot Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=born2beroot&theme=dark)](https://github.com/WOLFIE-OG/born2beroot)
+[![Born2beroot Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=born2beroot&theme=dark)](https://github.com/WOLFIE-OG/born2beroot) ![Born2beroot Score](https://img.shields.io/badge/Score-125%2F125-brightgreen?style=for-the-badge)
 
 Description: This project aims to introduce you to the wonderful world of virtualization.
 
 ### ft_printf
 
-[![ft_printf Build](https://github.com/WOLFIE-OG/ft_printf/actions/workflows/makefile.yml/badge.svg)](https://github.com/WOLFIE-OG/ft_printf/actions/workflows/makefile.yml)
+[![ft_printf Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/ft_printf/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/ft_printf/actions/workflows/makefile.yml) ![ft_printf Score](https://img.shields.io/badge/Score-100%2F125-brightgreen?style=for-the-badge)
 
 [![ft_printf Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=ft_printf&theme=dark)](https://github.com/WOLFIE-OG/ft_printf)
 
@@ -52,7 +52,7 @@ Description: This project is pretty straightforward, you have to recode printf. 
 
 ### get_next_line
 
-[![get_next_line Build](https://github.com/WOLFIE-OG/get_next_line/actions/workflows/makefile.yml/badge.svg)](https://github.com/WOLFIE-OG/get_next_line/actions/workflows/makefile.yml)
+[![get_next_line Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/get_next_line/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/get_next_line/actions/workflows/makefile.yml) ![get_next_line Score](https://img.shields.io/badge/Score-125%2F125-brightgreen?style=for-the-badge)
 
 [![get_next_line Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=get_next_line&theme=dark)](https://github.com/WOLFIE-OG/get_next_line)
 
@@ -60,7 +60,7 @@ Description: May it be a file, stdin, or even later a network connection, you wi
 
 ### Libft
 
-[![Libft Build](https://github.com/WOLFIE-OG/libft/actions/workflows/makefile.yml/badge.svg)](https://github.com/WOLFIE-OG/libft/actions/workflows/makefile.yml)
+[![Libft Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/libft/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/libft/actions/workflows/makefile.yml) ![Libft Score](https://img.shields.io/badge/Score-100%2F125-brightgreen?style=for-the-badge)
 
 [![Libft Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=libft&theme=dark)](https://github.com/WOLFIE-OG/libft)
 
