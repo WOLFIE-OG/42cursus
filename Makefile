@@ -1,55 +1,59 @@
 all:
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C libft
+	@$(MAKE) -s -C libft
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C ft_printf
+	@$(MAKE) -s -C ft_printf
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C get_next_line
+	@$(MAKE) -s -C get_next_line
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C minitalk
+	@$(MAKE) -s -C minitalk
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C push_swap
+	@$(MAKE) -s -C push_swap
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C Philosophers
+	@$(MAKE) -s -C Philosophers
 	@echo "\n=======================================================\n"
 
 clean:
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C libft clean
+	@$(MAKE) -s -C libft clean
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C ft_printf clean
+	@$(MAKE) -s -C ft_printf clean
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C get_next_line clean
+	@$(MAKE) -s -C get_next_line clean
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C minitalk clean
+	@$(MAKE) -s -C minitalk clean
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C push_swap clean
+	@$(MAKE) -s -C push_swap clean
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C Philosophers clean
+	@$(MAKE) -s -C Philosophers clean
 	@echo "\n=======================================================\n"
 
 fclean:
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C libft fclean
+	@$(MAKE) -s -C libft fclean
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C minitalk fclean
+	@$(MAKE) -s -C ft_printf fclean
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C push_swap fclean
+	@$(MAKE) -s -C get_next_line fclean
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C Philosophers fclean
+	@$(MAKE) -s -C minitalk fclean
+	@echo "\n=======================================================\n"
+	@$(MAKE) -s -C push_swap fclean
+	@echo "\n=======================================================\n"
+	@$(MAKE) -s -C Philosophers fclean
 	@echo "\n=======================================================\n"
 
 re:
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C libft fclean
+	@$(MAKE) -s -C libft fclean
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C ft_printf re
+	@$(MAKE) -s -C ft_printf re
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C get_next_line re
+	@$(MAKE) -s -C get_next_line re
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C minitalk re
+	@$(MAKE) -s -C minitalk re
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C push_swap re
+	@$(MAKE) -s -C push_swap re
 	@echo "\n=======================================================\n"
-	$(MAKE) -s -C Philosophers re
+	@$(MAKE) -s -C Philosophers re
 	@echo "\n=======================================================\n"
