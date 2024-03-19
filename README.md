@@ -1,10 +1,10 @@
 # My Projects
 
 ### Welcome to my collection of projects from the 42cursus!
-## =========================================================================
+## ============================================================
 # PLEASE DONT COPY PASTE, YOU WILL NOT GET FAR!
 ## Use these as help, not the solution.
-## =========================================================================
+## ============================================================
 ## Projects
 
 # Philosophers
