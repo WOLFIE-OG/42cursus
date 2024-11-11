@@ -30,7 +30,7 @@ jobs:
       run: pip install norminette
 
     - name: ==========] Run ft_printf [==========
-      run: figlet -f figlet-fonts/3d.flf Running ft_printf | lolcat
+      run: figlet -f figlet-fonts/3d.flf Running ft_printf
 
     - name: Run tree
       run: tree
@@ -40,11 +40,11 @@ jobs:
       run: norminette src include
       working-directory: ft_printf
 
-    - name: Make program as module
+    - name: Make ft_printf as module
       run: make module
       working-directory: ft_printf
 
-    - name: View Contents of bin
+    - name: View contents of obj
       run: ls -la obj/
       working-directory: ft_printf
 
@@ -52,20 +52,20 @@ jobs:
       run: make clean
       working-directory: ft_printf
 
-    - name: Make program as standalone
+    - name: Make ft_printf as standalone
       run: make all
       working-directory: ft_printf
 
-    - name: Re-make program
+    - name: Re-make ft_printf
       run: make re
       working-directory: ft_printf
 
-    - name: View Contents of standalone
+    - name: View contents of standalone
       run: nm -C build/libftprintf.a
       working-directory: ft_printf
     
     - name: ==========] Run get_next_line [==========
-      run: figlet -f figlet-fonts/3d.flf Running get_next_line | lolcat
+      run: figlet -f figlet-fonts/3d.flf Running get_next_line
 
     - name: Run tree
       run: tree
@@ -75,11 +75,11 @@ jobs:
       run: norminette src include
       working-directory: get_next_line
 
-    - name: Make program as module
+    - name: Make get_next_li e as module
       run: make module
       working-directory: get_next_line
 
-    - name: View Contents of bin
+    - name: View contents of obj
       run: ls -la obj/
       working-directory: get_next_line
 
@@ -87,20 +87,20 @@ jobs:
       run: make clean
       working-directory: get_next_line
 
-    - name: Make program as standalone
+    - name: Make get_next_line as standalone
       run: make all
       working-directory: get_next_line
 
-    - name: Re-make program
+    - name: Re-make get_next_line
       run: make re
       working-directory: get_next_line
 
-    - name: View Contents of standalone
+    - name: View contents of standalone
       run: nm -C build/libftgnl.a
       working-directory: get_next_line
     
     - name: ==========] Run libft [==========
-      run: figlet -f figlet-fonts/3d.flf Running libft | lolcat
+      run: figlet -f figlet-fonts/3d.flf Running libft
 
     - name: Run tree
       run: tree
@@ -110,15 +110,15 @@ jobs:
       run: norminette src include
       working-directory: libft
 
-    - name: Make program
+    - name: Make libft
       run: make
       working-directory: libft
 
-    - name: Re-make program
+    - name: Re-make libft
       run: make re
       working-directory: libft
 
-    - name: View Contents of Libft
+    - name: View contents of libft
       run: nm -C build/libft.a
       working-directory: libft
     
@@ -126,4 +126,37 @@ jobs:
       run: make test
       working-directory: libft
 
+    - name: ==========] Run born2beroot [==========
+      run: figlet -f figlet-fonts/3d.flf Running born2beroot
+    
+    - name: Run monitor script
+      run: bash monitoring.sh
+      working-directory: born2beroot
 
+    - name: ==========] Run minitalk [==========
+      run: figlet -f figlet-fonts/3d.flf Running minitalk
+
+    - name: Run tree
+      run: tree
+      working-directory: minitalk
+
+    - name: Run norminette
+      run: norminette src include
+      working-directory: minitalk
+
+    - name: Make minitalk server & client
+      run: make
+      working-directory: minitalk
+
+    - name: Re-make minitalk server & client
+      run: make re
+      working-directory: minitalk
+
+    - name: View contents of client
+      run: nm -C client
+      working-directory: minitalk
+    
+    - name: View contents of server
+      run: nm -C server
+      working-directory: minitalk
+    
