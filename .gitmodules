@@ -31,3 +31,6 @@
 [submodule "figlet-fonts"]
 	path = figlet-fonts
 	url = https://github.com/xero/figlet-fonts
+[submodule "NetPractise"]
+	path = NetPractise
+	url = https://github.com/WOLFIE-OG/NetPractise
