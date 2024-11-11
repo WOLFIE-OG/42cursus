@@ -28,3 +28,6 @@
 [submodule "minishell"]
 	path = minishell
 	url = https://github.com/WOLFIE-OG/minishell
+[submodule "figlet-fonts"]
+	path = figlet-fonts
+	url = https://github.com/xero/figlet-fonts
