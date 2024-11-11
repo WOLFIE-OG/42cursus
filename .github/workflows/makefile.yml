@@ -14,7 +14,105 @@ jobs:
     steps:
     - uses: actions/checkout@master
 
-    - name: ==========] ft_printf [==========
-      uses: WOLFIE-OG/ft_printf@dev/.github/workflows/makefile.yml
+    - name: Get submodules
+      run: git submodule update --init --recursive
 
+    - name: Update apt
+      run: sudo apt-get update --fix-missing
     
+    - name: Install tree, gcc, make, xorg, libxext-dev, libbsd-dev, valgrind, lolcat, neofetch & figlet
+      run: sudo apt-get install tree gcc make xorg libxext-dev libbsd-dev valgrind lolcat neofetch figlet
+
+    - name: Install norminette
+      run: pip install norminette
+
+    - name: ==========] Run ft_printf [==========
+      run: figlet running ft_printf
+      working-directory: ft_printf
+
+    - name: Run tree
+      run: tree
+      working-directory: ft_printf
+
+    - name: Run norminette
+      run: norminette src include
+      working-directory: ft_printf
+
+    - name: Make program as module
+      run: make module
+      working-directory: ft_printf
+
+    - name: View Contents of bin
+      run: ls -la obj/
+      working-directory: ft_printf
+
+    - name: Clean output
+      run: make clean
+      working-directory: ft_printf
+
+    - name: Make program as standalone
+      run: make all
+      working-directory: ft_printf
+
+    - name: Re-make program
+      run: make re
+      working-directory: ft_printf
+
+    - name: View Contents of standalone
+      run: nm -C build/libftprintf.a
+      working-directory: ft_printf
+    
+    - name: ==========] Enter get_next_line [==========
+      run: cd get_next_line
+
+    - name: Run tree
+      run: tree
+
+    - name: Run norminette
+      run: norminette src include
+
+    - name: Make program as module
+      run: make module
+
+    - name: View Contents of bin
+      run: ls -la obj/
+
+    - name: Clean output
+      run: make clean
+
+    - name: Make program as standalone
+      run: make all
+
+    - name: Re-make program
+      run: make re
+
+    - name: View Contents of standalone
+      run: nm -C build/libftgnl.a
+
+    - name: ==========] Exit get_next_line [==========
+      run: cd ..
+    
+    - name: ==========] Enter libft [==========
+      run: cd libft
+
+    - name: Run tree
+      run: tree
+
+    - name: Run norminette
+      run: norminette src include
+
+    - name: Make program
+      run: make
+
+    - name: Re-make program
+      run: make re
+
+    - name: View Contents of Libft
+      run: nm -C build/libft.a
+    
+    - name: Run Tests
+      run: make test
+
+    - name: ==========] Exit libft [==========
+      run: cd ..
+
