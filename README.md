@@ -7,6 +7,22 @@
 ## ============================================================
 ## Projects
 
+# NetPractise
+
+![NetPractise Score](https://img.shields.io/badge/Score-N\A-grey?style=for-the-badge)
+
+[![NetPractise Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=NetPractise&theme=dark)](https://github.com/WOLFIE-OG/NetPractise)
+
+NetPractise is a general practical exercise to let you discover networking. 
+
+# minishell
+
+[![minishell Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/minishell/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/minishell/actions/workflows/makefile.yml) ![minishell Score](https://img.shields.io/badge/Score-125%2F100-brightgreen?style=for-the-badge)
+
+[![minishell Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=minishell&theme=dark)](https://github.com/WOLFIE-OG/minishell)
+
+The objective of this project is for you to create a simple shell.
+
 # Philosophers
 
 [![Philosophers Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/Philosophers/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/Philosophers/actions/workflows/makefile.yml) ![Philosophers Score](https://img.shields.io/badge/Score-125%2F125-brightgreen?style=for-the-badge)
