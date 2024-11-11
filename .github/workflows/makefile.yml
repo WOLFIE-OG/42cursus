@@ -40,7 +40,7 @@ jobs:
       run: norminette src include
       working-directory: ft_printf
 
-    - name: Make ft_printf as module
+    - name: Make ft_printf as a module
       run: make module
       working-directory: ft_printf
 
@@ -75,7 +75,7 @@ jobs:
       run: norminette src include
       working-directory: get_next_line
 
-    - name: Make get_next_li e as module
+    - name: Make get_next_line as a module
       run: make module
       working-directory: get_next_line
 
@@ -129,8 +129,8 @@ jobs:
     - name: ==========] Run born2beroot [==========
       run: figlet -f figlet-fonts/3d.flf Running born2beroot
     
-    - name: Run monitor script
-      run: bash monitoring.sh
+    - name: Display monitor script
+      run: cat monitoring.sh
       working-directory: born2beroot
 
     - name: ==========] Run minitalk [==========
@@ -141,7 +141,7 @@ jobs:
       working-directory: minitalk
 
     - name: Run norminette
-      run: norminette src include
+      run: norminette src include libft/src libft/include
       working-directory: minitalk
 
     - name: Make minitalk server & client
@@ -152,6 +152,10 @@ jobs:
       run: make re
       working-directory: minitalk
 
+    - name: View contents of libft
+      run: nm -C libft/build/libft.a
+      working-directory: minitalk
+
     - name: View contents of client
       run: nm -C client
       working-directory: minitalk
@@ -159,4 +163,113 @@ jobs:
     - name: View contents of server
       run: nm -C server
       working-directory: minitalk
+
+    - name: ==========] Run so_long [==========
+      run: figlet -f figlet-fonts/3d.flf Running so_long
+
+    - name: Run tree
+      run: tree
+      working-directory: so_long
+
+    - name: Run norminette
+      run: norminette src include libs/libft/src libs/libft/include
+      working-directory: so_long
+
+    - name: Make so_long
+      run: make
+      working-directory: so_long
+
+    - name: Re-make so_long
+      run: make re
+      working-directory: so_long
+
+    - name: View contents of libft
+      run: nm -C libs/libft/build/libft.a
+      working-directory: so_long
+
+    - name: View contents of minilibx
+      run: nm -C libs/minilibx/libmlx_Linux.a
+      working-directory: so_long
     
+    - name: View contents of so_long
+      run: nm -C so_long
+      working-directory: so_long
+
+    - name: ==========] Run push_swap [==========
+      run: figlet -f figlet-fonts/3d.flf Running push_swap
+    
+    - name: Run tree
+      run: tree
+      working-directory: push_swap
+
+    - name: Run norminette
+      run: norminette src include libft/src libft/include
+      working-directory: push_swap
+
+    - name: Make push_swap
+      run: make
+      working-directory: push_swap
+
+    - name: Re-make push_swap
+      run: make re
+      working-directory: push_swap
+
+    - name: View contents of libft
+      run: nm -C libft/build/libft.a
+      working-directory: push_swap
+    
+    - name: View contents of push_swap
+      run: nm -C push_swap
+      working-directory: push_swap
+    
+    - name: Test - 10 (No Arg)
+      run: ./tests/test_10.sh
+      working-directory: push_swap
+
+    - name: Test - 10
+      run: ./tests/test_10_1_arg.sh
+      working-directory: push_swap
+
+    - name: Test - 50 (No Arg)
+      run: ./tests/test_50.sh
+      working-directory: push_swap
+
+    - name: Test - 50
+      run: ./tests/test_50_1_arg.sh
+      working-directory: push_swap
+
+    - name: Test - 100 (No Arg)
+      run: ./tests/test_100.sh
+      working-directory: push_swap
+
+    - name: Test - 100
+      run: ./tests/test_100_1_arg.sh
+      working-directory: push_swap
+
+    - name: Re-Make push_swap with debug
+      run: make re CFLAGS+=-DDEBUG_PRINT=1
+      working-directory: push_swap
+
+    - name: Test - 10 (No Arg)
+      run: ./tests/test_10.sh
+      working-directory: push_swap
+
+    - name: Test - 10
+      run: ./tests/test_10_1_arg.sh
+      working-directory: push_swap
+
+    - name: Test - 50 (No Arg)
+      run: ./tests/test_50.sh
+      working-directory: push_swap
+
+    - name: Test - 50
+      run: ./tests/test_50_1_arg.sh
+      working-directory: push_swap
+
+    - name: Test - 100 (No Arg)
+      run: ./tests/test_100.sh
+      working-directory: push_swap
+
+    - name: Test - 100
+      run: ./tests/test_100_1_arg.sh
+      working-directory: push_swap
