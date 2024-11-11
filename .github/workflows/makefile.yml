@@ -27,8 +27,7 @@ jobs:
       run: pip install norminette
 
     - name: ==========] Run ft_printf [==========
-      run: figlet running ft_printf
-      working-directory: ft_printf
+      run: figlet Running ft_printf | lolcat
 
     - name: Run tree
       run: tree
@@ -62,57 +61,66 @@ jobs:
       run: nm -C build/libftprintf.a
       working-directory: ft_printf
     
-    - name: ==========] Enter get_next_line [==========
-      run: cd get_next_line
+    - name: ==========] Run get_next_line [==========
+      run: figlet Running get_next_line | lolcat
 
     - name: Run tree
       run: tree
+      working-directory: get_next_line
 
     - name: Run norminette
       run: norminette src include
+      working-directory: get_next_line
 
     - name: Make program as module
       run: make module
+      working-directory: get_next_line
 
     - name: View Contents of bin
       run: ls -la obj/
+      working-directory: get_next_line
 
     - name: Clean output
       run: make clean
+      working-directory: get_next_line
 
     - name: Make program as standalone
       run: make all
+      working-directory: get_next_line
 
     - name: Re-make program
       run: make re
+      working-directory: get_next_line
 
     - name: View Contents of standalone
       run: nm -C build/libftgnl.a
-
-    - name: ==========] Exit get_next_line [==========
-      run: cd ..
+      working-directory: get_next_line
     
-    - name: ==========] Enter libft [==========
-      run: cd libft
+    - name: ==========] Run libft [==========
+      run: figlet Running libft | lolcat
 
     - name: Run tree
       run: tree
+      working-directory: libft
 
     - name: Run norminette
       run: norminette src include
+      working-directory: libft
 
     - name: Make program
       run: make
+      working-directory: libft
 
     - name: Re-make program
       run: make re
+      working-directory: libft
 
     - name: View Contents of Libft
       run: nm -C build/libft.a
+      working-directory: libft
     
     - name: Run Tests
       run: make test
+      working-directory: libft
 
-    - name: ==========] Exit libft [==========
-      run: cd ..
 
