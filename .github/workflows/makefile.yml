@@ -15,6 +15,6 @@ jobs:
     - uses: actions/checkout@master
 
     - name: ==========] ft_printf [==========
-      uses: WOLFIE-OG/ft_printf@dev
+      uses: WOLFIE-OG/ft_printf@dev/.github/workflows/makefile.yml
 
     
