@@ -17,6 +17,9 @@ jobs:
     - name: Get submodules
       run: git submodule update --init --recursive
 
+    - name: Get figlet fonts
+      run: git clone https://github.com/xero/figlet-fonts
+    
     - name: Update apt
       run: sudo apt-get update --fix-missing
     
@@ -27,7 +30,7 @@ jobs:
       run: pip install norminette
 
     - name: ==========] Run ft_printf [==========
-      run: figlet Running ft_printf | lolcat
+      run: figlet -f figlet-fonts/3d.flf Running ft_printf | lolcat
 
     - name: Run tree
       run: tree
@@ -62,7 +65,7 @@ jobs:
       working-directory: ft_printf
     
     - name: ==========] Run get_next_line [==========
-      run: figlet Running get_next_line | lolcat
+      run: figlet -f figlet-fonts/3d.flf Running get_next_line | lolcat
 
     - name: Run tree
       run: tree
@@ -97,7 +100,7 @@ jobs:
       working-directory: get_next_line
     
     - name: ==========] Run libft [==========
-      run: figlet Running libft | lolcat
+      run: figlet -f figlet-fonts/3d.flf Running libft | lolcat
 
     - name: Run tree
       run: tree
