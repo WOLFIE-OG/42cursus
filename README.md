@@ -41,7 +41,7 @@ Description: This project is a small 2D game with minilibx. You'll learn about t
 
 # push_swap
 
-[![push_swap Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/push_swap/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/push_swap/actions/workflows/makefile.yml) ![push_swap Score](https://img.shields.io/badge/Score-100%2F125-brightgreen?style=for-the-badge)
+[![push_swap Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/push_swap/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/push_swap/actions/workflows/makefile.yml) ![push_swap Score](https://img.shields.io/badge/Score-100%2F100-brightgreen?style=for-the-badge)
 
 [![push_swap Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=push_swap&theme=dark)](https://github.com/WOLFIE-OG/push_swap)
 
@@ -64,7 +64,7 @@ Description: This project aims to introduce you to the wonderful world of virtua
 
 # ft_printf
 
-[![ft_printf Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/ft_printf/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/ft_printf/actions/workflows/makefile.yml) ![ft_printf Score](https://img.shields.io/badge/Score-100%2F125-brightgreen?style=for-the-badge)
+[![ft_printf Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/ft_printf/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/ft_printf/actions/workflows/makefile.yml) ![ft_printf Score](https://img.shields.io/badge/Score-100%2F100-brightgreen?style=for-the-badge)
 
 [![ft_printf Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=ft_printf&theme=dark)](https://github.com/WOLFIE-OG/ft_printf)
 
@@ -80,7 +80,7 @@ Description: May it be a file, stdin, or even later a network connection, you wi
 
 # Libft
 
-[![Libft Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/libft/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/libft/actions/workflows/makefile.yml) ![Libft Score](https://img.shields.io/badge/Score-100%2F125-brightgreen?style=for-the-badge)
+[![Libft Build](https://img.shields.io/github/actions/workflow/status/WOLFIE-OG/libft/makefile.yml?style=for-the-badge)](https://github.com/WOLFIE-OG/libft/actions/workflows/makefile.yml) ![Libft Score](https://img.shields.io/badge/Score-100%2F100-brightgreen?style=for-the-badge)
 
 [![Libft Stats](https://github-readme-stats.vercel.app/api/pin/?username=WOLFIE-OG&repo=libft&theme=dark)](https://github.com/WOLFIE-OG/libft)
 
