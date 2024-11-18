@@ -34,3 +34,6 @@
 [submodule "NetPractise"]
 	path = NetPractise
 	url = https://github.com/WOLFIE-OG/NetPractise
+[submodule "CPP-Module-00"]
+	path = CPP-Module-00
+	url = https://github.com/WOLFIE-OG/CPP-Module-00
