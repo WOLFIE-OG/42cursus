@@ -511,7 +511,7 @@ jobs:
 
     - name: Run ex00 `shhhhh... I think the students are asleep...`
       run: ./megaphone "shhhhh... I think the students are asleep..."
-      working-directory: ex00
+      working-directory: CPP-Module-00/ex00
 
     - name: Run ex00 `Damnit " ! " "Sorry students, I thought this thing was off."`
       run: ./megaphone Damnit " ! " "Sorry students, I thought this thing was off."
