@@ -552,3 +552,138 @@ jobs:
     - name: Diff ex02 output
       run: cat 19920104_091532.log | awk '{ print $2 }' | diff -s - output.log && rm output.log
       working-directory: CPP-Module-00/ex02
+
+    - name: ==========] Run CPP-Module-01 [==========
+      run: figlet -f figlet-fonts/3d.flf Running CPP-Module-01
+
+    - name: Run tree
+      run: tree
+      working-directory: CPP-Module-01
+
+    - name: Make ex00
+      run: make
+      working-directory: CPP-Module-01/ex00
+
+    - name: Re-make ex00
+      run: make re
+      working-directory: CPP-Module-01/ex00
+
+    - name: View contents of ex00
+      run: nm -C zombie
+      working-directory: CPP-Module-01/ex00
+    
+    - name: Run ex00
+      run: ./zombie
+      working-directory: CPP-Module-01/ex00
+    
+    - name: Make ex01
+      run: make
+      working-directory: CPP-Module-01/ex01
+
+    - name: Re-make ex01
+      run: make re
+      working-directory: CPP-Module-01/ex01
+
+    - name: View contents of ex01
+      run: nm -C zombie
+      working-directory: CPP-Module-01/ex01
+    
+    - name: Run ex01
+      run: ./zombie
+      working-directory: CPP-Module-01/ex01
+
+    - name: Make ex02
+      run: make
+      working-directory: CPP-Module-01/ex02
+
+    - name: Re-make ex02
+      run: make re
+      working-directory: CPP-Module-01/ex02
+
+    - name: View contents of ex02
+      run: nm -C brain
+      working-directory: CPP-Module-01/ex02
+    
+    - name: Run ex02
+      run: ./brain
+      working-directory: CPP-Module-01/ex02
+
+    - name: Make ex03
+      run: make
+      working-directory: CPP-Module-01/ex03
+
+    - name: Re-make ex03
+      run: make re
+      working-directory: CPP-Module-01/ex03
+
+    - name: View contents of ex03
+      run: nm -C weapon
+      working-directory: CPP-Module-01/ex03
+    
+    - name: Run ex03
+      run: ./weapon
+      working-directory: CPP-Module-01/ex03
+
+    - name: Make ex04
+      run: make
+      working-directory: CPP-Module-01/ex04
+
+    - name: Re-make ex04
+      run: make re
+      working-directory: CPP-Module-01/ex04
+
+    - name: View contents of ex04
+      run: nm -C sed
+      working-directory: CPP-Module-01/ex04
+    
+    - name: Run ex04 tests
+      run: bash tests.sh
+      working-directory: CPP-Module-01/ex04
+
+    - name: Make ex05
+      run: make
+      working-directory: CPP-Module-01/ex05
+
+    - name: Re-make ex05
+      run: make re
+      working-directory: CPP-Module-01/ex05
+
+    - name: View contents of ex05
+      run: nm -C harl
+      working-directory: CPP-Module-01/ex05
+    
+    - name: Run ex05
+      run: ./harl
+      working-directory: CPP-Module-01/ex05
+    
+    - name: Make ex06
+      run: make
+      working-directory: CPP-Module-01/ex06
+
+    - name: Re-make ex06
+      run: make re
+      working-directory: CPP-Module-01/ex06
+
+    - name: View contents of ex06
+      run: nm -C harlFilter
+      working-directory: CPP-Module-01/ex06
+    
+    - name: Run ex06 | DEBUG
+      run: ./harlFilter DEBUG
+      working-directory: CPP-Module-01/ex06
+    
+    - name: Run ex06 | INFO
+      run: ./harlFilter INFO
+      working-directory: CPP-Module-01/ex06
+    
+    - name: Run ex06 | WARNING
+      run: ./harlFilter WARNING
+      working-directory: CPP-Module-01/ex06
+    
+    - name: Run ex06 | ERROR
+      run: ./harlFilter ERROR
+      working-directory: CPP-Module-01/ex06
+    
+    - name: Run ex06 | Non Level
+      run: ./harlFilter "I hate mondays"
+      working-directory: CPP-Module-01/ex06
