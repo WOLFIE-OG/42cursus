@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     env:
-      VALGRIND_CMD: sudo valgrind --leak-check=full --track-fds=yes --trace-children=yes --track-origins=yes --suppressions=rl.supp
+      VALGRIND_CMD: valgrind --leak-check=full --track-fds=yes --trace-children=yes --track-origins=yes --suppressions=rl.supp
 
     runs-on: ubuntu-latest
 

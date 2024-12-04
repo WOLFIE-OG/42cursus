@@ -6,7 +6,7 @@
 #    By: otodd <otodd@student.42london.com>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/12/03 11:56:46 by otodd             #+#    #+#              #
-#    Updated: 2024/12/04 01:27:53 by otodd            ###   ########.fr        #
+#    Updated: 2024/12/04 23:42:22 by otodd            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,6 +19,7 @@ from uuid import uuid4
 from pathlib import Path
 from git import Repo
 from git.util import RemoteProgress
+
 COLORS = {
     "DEBUG": "\033[94m",
     "INFO": "\033[92m",
@@ -31,6 +32,7 @@ LOG_FORMAT = "[%(levelname)s] :: [%(asctime)s] :: %(message)s"
 WORKFLOW_DIR = Path(".github/workflows/")
 TMP_DIR = Path("/tmp/actions_runner/")
 REPO = Repo(os.getcwd())
+ENV = os.environ
 
 class ColoredFormatter(logging.Formatter):
     def format(self, record: logging.LogRecord):
@@ -111,6 +113,7 @@ for workflow in os.listdir(WORKFLOW_DIR):
                     else Path(repo_dir)
                 ),
                 shell=True,
+                env=ENV
             )
             logger.debug(f"{5 * '='}| [ Step stdout start ] |{5 * '='}\n")
             while True:
