@@ -40,3 +40,6 @@
 [submodule "CPP-Module-01"]
 	path = CPP-Module-01
 	url = https://github.com/WOLFIE-OG/CPP-Module-01
+[submodule "CPP-Module-02"]
+	path = CPP-Module-02
+	url = https://github.com/WOLFIE-OG/CPP-Module-02
